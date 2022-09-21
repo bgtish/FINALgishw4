@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "pathfile",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -73.981879595288234, 40.767980622514436 ], [ -73.984265242778434, 40.764740852345831 ], [ -73.981408809649508, 40.763553569446536 ], [ -73.984610494052177, 40.759178514746509 ], [ -73.981789777478923, 40.757941882326797 ] ] ] } }
+]
+}
