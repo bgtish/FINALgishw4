@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6</title>
+</head>
+<body>
+<h1>Homework 6b: Census Data Chloropleth with Ratios </h1>
+<h2>By: Bettye Tish</h2>
+<h3>My Selected Ratio:</h3>
+<h4>Each of the three maps below uses the same ratio: the number of 
+    households in a county below the poverty line divided by the total 
+    households in that county. This gives a sense of the concentration
+    of poverty within a county, rather than just counting impoverished households.
+    Without the use of this ratio, population centers such as Seattle would appear to have falsely
+    inflated levels of poverty.
+</h4>
+<h3>1. Equal Count Classification Scheme</h3>
+<h4>An advantage of this mode is the aesthetically pleasing appearance
+    it creates, and clearly grouping similar counties together. A disadvantage
+of this mode is that it exaggerates uniformity across an area. For example: all the dark
+purple regions can only be grouped together by having a very large range within that data category.</h4>
+<!-- Your map goes here -->
+<a href="ratio_equalcount.png">
+    <img src="ratio_equalcount.png" alt="equalcount" width='500px'>
+    </a>
+
+<h3>2. Equal Interval Classification Scheme </h3>
+<h4>An advantage of this mode is that it is easy to read and clearly expresses trends in a data set: the majority of counties have 
+    low rates of poverty. However, a disadvantage of it is that exaggerates outliers in the data set: since only one
+    count falls in the final range, it seems as though Washinton has low poverty rates. 
+</h4>
+    <!-- Your map goes here -->
+    <a href="ratio_equalinterval.png">
+        <img src="ratio_equalinterval.png" alt="equalinterval" width='500px'>
+        </a>
+ <h3>3. Natural Break Classification Scheme </h3>
+ <h4>This mode is useful because it balances grouping data with accenuating the important
+    differences in data. However, it would be less desirable in a data set with very similar values. 
+ </h4>
+        <!-- Your map goes here -->
+        <a href="ratio_natbreak.png">
+            <img src="ratio_natbreak.png" alt="naturalbreak" width='500px'>
+            </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project:</h2>
+    <a href="householdpoverty.csv"> CSV dataset </a>
+    <p></p>
+   
+
+</body>
+</html>
