@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 7</title>
+</head>
+<body>
+<h1>Homework 7: Creating My Own Chloropleth </h1>
+<h2>By: Bettye Tish</h2>
+<h3> For this assignment, I chose to make a chloropleth showing the frequency of my
+    favorite fast food restaurant across America. Any restaurant with tofu that good 
+    deserves to be celebrated with a QGIS map!
+    <br>
+    <br>
+    <div class="tenor-gif-embed" data-postid="8480642" data-share-method="host" data-aspect-ratio="1" data-width="40%"><a href="https://tenor.com/view/i-love-chipotle-oh-my-god-gif-8480642">I Love Chipotle Oh My God GIF</a>from <a href="https://tenor.com/search/i+love+chipotle-gifs">I Love Chipotle GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <br>
+    The map was made using data from Statista, which
+    I converted from a .XLSX to a .CSV file and cleaned. I chose to focus on the continental United States
+    because there was no data for Alaska and Hawaii. I could have included these states but
+    they would be challenging to see at this scale because of their extreme sizes. Including them
+    would have made for a less aesthetically pleasing map. I used the natural breaks
+    classification scheme to display my data because it emphasizes the natural
+    groupings within the data without obscuring outliers. California was one such outlier, it 
+    had 207 more Chipotles than the next state (Texas), for a grand total of 412 Chipotles. 
+    Rightfully so, natural breaks classification assured that California had its own category. 
+    In retrospect, this map could be improved by normalizing the data (perhaps Chipotles per person
+    rather than numbers of Chipotle stores in each state) because it largely just reflects 
+    population rather than a state's true preference for the American fast casual dining sweetheart Chiptole.
+</h3>
+<!-- Your map goes here -->
+<a href="realchipotlemap.png">
+    <img src="realchipotlemap.png" alt="my map" width='1000px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project:</h2>
+    <a href="uncleanedchipotle.xlsx"> Original .XLSX file</a>
+    <p></p>
+    <a href="chipotle.csv"> Cleaned .CSV file </a>
+    <p></p>
+    <a href="uschipotlevector.geojson"> Geojson vector  </a>
+
+</body>
+</html>
