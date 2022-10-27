@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing </h1>
+<h2>Bettye Tish</h2>
+<h3> For this map, I sought to answer the question: what areas of Atlanta, Georgia, 
+    constitute food deserts? Very quickly in this process, I learned that a food 
+desert must meet two qualifications: a high poverty area and no source of fresh food 
+walking distance. For the purposes of my map, I went by <a href="https://poverty.ucdavis.edu/post/areas-concentrated-poverty">UC Davis' </a>measurement of 
+"poverty areas" (areas with a poverty rate of more than 20%) and the commonly used 
+urban planning measurement of walking distance (1 mile, which is very generous). After
+cleaning my data sets in QGIS using attribute table queries, I first created a buffer of
+walking distance around local grocery stores. Then, I created a new layer using the difference
+geoprocessing tool, finding areas that were both high poverty and not included in the walking distance
+radius of grocery stores. 
+  </h3>
+<!-- Your map goes here -->
+<a href="realhotlanta.png">
+    <img src="realhotlanta.png" alt="my map" width='800px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project:</h2>
+    <a href="atlantapov.csv"> CSV of Poverty Census Data for Atlanta Zip Codes  </a>
+    <p></p>
+    <a href="grocery_stores.csv"> CSV of Food Sources in the Atlanta Metropolitan Area </a>
+
+</body>
+</html>
